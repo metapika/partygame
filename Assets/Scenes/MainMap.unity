@@ -1002,7 +1002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 1
-  m_FollowOffset: {x: -5, y: 5, z: -15}
+  m_FollowOffset: {x: -5.6256943, y: 5, z: -14.788677}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -1968,8 +1968,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.15057115, y: 0.15830766, z: -0.024434337, w: 0.97553575}
-  m_LocalPosition: {x: -76.06431, y: 6.255, z: -53.92132}
+  m_LocalRotation: {x: 0.14992964, y: 0.17863917, z: -0.02755388, w: 0.972034}
+  m_LocalPosition: {x: -76.69, y: 6.255, z: -53.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3250,7 +3250,7 @@ GameObject:
   - component: {fileID: 1721351000}
   - component: {fileID: 1721350999}
   m_Layer: 0
-  m_Name: Top down camera
+  m_Name: CinemachineCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3298,8 +3298,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721350998}
-  m_LocalRotation: {x: 0.15057115, y: 0.15830766, z: -0.024434337, w: 0.97553575}
-  m_LocalPosition: {x: -76.06431, y: 6.255, z: -53.92132}
+  m_LocalRotation: {x: 0.14992964, y: 0.17863917, z: -0.02755388, w: 0.972034}
+  m_LocalPosition: {x: -76.69, y: 6.255, z: -53.71}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 586489360}

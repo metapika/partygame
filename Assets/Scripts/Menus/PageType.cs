@@ -5,8 +5,13 @@ namespace UnityCore {
         
         public enum PageType {
             None,
+            TitleScreen,
+            GameModes,
+            Options,
+            Customize,
+            MapSelection,
             Loading,
-            Menu
+            Quit
         }
     }
 }

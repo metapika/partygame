@@ -5,6 +5,7 @@ using UnityEngine;
 namespace UnityCore {
 
     namespace Menu {
+        
         public class PageController : MonoBehaviour
         {
             public static PageController instance;
@@ -13,6 +14,7 @@ namespace UnityCore {
             public Page[] pages;
 
             private Hashtable m_Pages;
+            private Hashtable a_Pages;
 
 #region Unity Functions
             private void Awake() {
@@ -60,6 +62,16 @@ namespace UnityCore {
                         TurnPageOn(_on);
                     }
                 }
+            }
+
+            public void ReturnToMainMenu()
+            {
+                foreach(Page _page in pages)
+                {
+                    TurnPageOff(_page.type);
+                }
+
+                TurnPageOn(PageType.TitleScreen);
             }
 #endregion
 
